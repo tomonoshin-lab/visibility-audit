@@ -1,0 +1,32 @@
+{
+  "title": "visibility-audit: codebook, audit logs and code for an audit of identifier schemas and record linkage in US device surveillance",
+  "upload_type": "dataset",
+  "description": "<p>Codebook and blank judgment templates (fixed 2 September 2026, before any confirmatory judgment), three codebook addenda (3 September 2026), the recorded judgments with a documentary audit log of verbatim quotations, field inventories, record-linkage outputs (MDR master-file scan, DEVICE-file join, AccessGUDID results of 2 September 2026) and analysis code for an audit of whether US FDA device surveillance data sources can retrieve adverse events across products that share an upstream component such as a foundation model. The final recorded judgments are in results/final_2026-09-26/. Documentation and data are licensed under CC BY 4.0; code is licensed under the MIT License. Raw FDA files are not redistributed; their download locations and SHA-256 hashes are in data/MANIFEST.md.</p>",
+  "creators": [
+    {
+      "name": "Aoki, Tomonoshin",
+      "affiliation": "Innovation Management and Policy Program, Graduate School of Business Administration, Hitotsubashi University",
+      "orcid": "0009-0008-4943-6557"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "keywords": [
+    "postmarketing surveillance",
+    "medical devices",
+    "artificial intelligence",
+    "foundation models",
+    "record linkage",
+    "unique device identifier",
+    "MAUDE",
+    "GUDID"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/melificient/medAI",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ]
+}

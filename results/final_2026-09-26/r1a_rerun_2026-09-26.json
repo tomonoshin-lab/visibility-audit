@@ -1,0 +1,77 @@
+{
+  "run_date": "2026-09-26",
+  "master_extract": {
+    "n_reports": 943,
+    "n_fields": 15,
+    "fields": [
+      "idnumber",
+      "mdr_report_key",
+      "report_source_code",
+      "date_received",
+      "adverse_event_flag",
+      "product_problem_flag",
+      "date_report",
+      "date_of_event",
+      "reporter_occupation_code",
+      "health_professional",
+      "event_location",
+      "date_manufacturer_received",
+      "remedial_action",
+      "event_type",
+      "type_of_report"
+    ],
+    "identity_like_fields": []
+  },
+  "pmn96cur_510k_releasable": {
+    "n_fields": 22,
+    "fields": [
+      "KNUMBER",
+      "APPLICANT",
+      "CONTACT",
+      "STREET1",
+      "STREET2",
+      "CITY",
+      "STATE",
+      "COUNTRY_CODE",
+      "ZIP",
+      "POSTAL_CODE",
+      "DATERECEIVED",
+      "DECISIONDATE",
+      "DECISION",
+      "REVIEWADVISECOMM",
+      "PRODUCTCODE",
+      "STATEORSUMM",
+      "CLASSADVISECOMM",
+      "SSPINDICATOR",
+      "TYPE",
+      "THIRDPARTY",
+      "EXPEDITEDREVIEW",
+      "DEVICENAME"
+    ],
+    "identity_like_fields": [],
+    "component_fields": []
+  },
+  "fda_ai_device_list": {
+    "n_fields": 6,
+    "fields": [
+      "Date of Final Decision",
+      "Submission Number",
+      "Device",
+      "Company",
+      "Panel (Lead)",
+      "Primary Product Code"
+    ],
+    "upstream_model_field": null
+  },
+  "missingness_replication": {
+    "event_location_missing": 943,
+    "health_professional_missing": 690,
+    "date_of_event_missing": 298,
+    "reporter_occupation_missing": 283,
+    "event_type_split_M_IN_D": {
+      "M": 857,
+      "IN": 84,
+      "D": 2
+    }
+  }
+}

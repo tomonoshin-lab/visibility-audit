@@ -1,0 +1,22 @@
+reports: 943; with DEVICE row: 943; without: 0; reports with >1 device row: 26; max rows per report: 2
+                     field  n_reports  reports_with_device_row  populated  na_populated  blank  placeholder  fill_rate_incl_NA  fill_rate_excl_NA
+                BRAND_NAME        943                      943        943             0      0            0             1.0000             1.0000
+              GENERIC_NAME        943                      943        943             0      0            0             1.0000             1.0000
+              MODEL_NUMBER        943                      943        588            82    273            0             0.7105             0.6235
+            CATALOG_NUMBER        943                      943        119             7    817            0             0.1336             0.1262
+                LOT_NUMBER        943                      943        113            80    749            1             0.2047             0.1198
+           OTHER_ID_NUMBER        943                      943         81             3    859            0             0.0891             0.0859
+DEVICE_REPORT_PRODUCT_CODE        943                      943        943             0      0            0             1.0000             1.0000
+ EXPIRATION_DATE_OF_DEVICE        943                      943         68             0    875            0             0.0721             0.0721
+                    UDI-DI        943                      943        446             0    497            0             0.4730             0.4730
+                UDI-PUBLIC        943                      943        446             0    497            0             0.4730             0.4730
+
+version-like tokens:
+          field  n_nonblank  version_like_tokens  share_of_nonblank
+   MODEL_NUMBER         670                   77             0.1149
+ CATALOG_NUMBER         126                    0             0.0000
+     LOT_NUMBER         194                    2             0.0103
+OTHER_ID_NUMBER          84                   44             0.5238
+     UDI-PUBLIC         446                   89             0.1996
+
+distinct UDI-DI values: 39

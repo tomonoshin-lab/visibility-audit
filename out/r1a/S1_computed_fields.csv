@@ -1,0 +1,44 @@
+system,field_name,designated_meaning,data_type,referent_class,structured,controlled_values,join_key_to,component_related,source_doc,notes
+MDR master record (943-report extract),idnumber,,,,,,,,Babic et al. repository,computed
+MDR master record (943-report extract),mdr_report_key,,,,,,,,Babic et al. repository,computed
+MDR master record (943-report extract),report_source_code,,,,,,,,Babic et al. repository,computed
+MDR master record (943-report extract),date_received,,,,,,,,Babic et al. repository,computed
+MDR master record (943-report extract),adverse_event_flag,,,,,,,,Babic et al. repository,computed
+MDR master record (943-report extract),product_problem_flag,,,,,,,,Babic et al. repository,computed
+MDR master record (943-report extract),date_report,,,,,,,,Babic et al. repository,computed
+MDR master record (943-report extract),date_of_event,,,,,,,,Babic et al. repository,computed
+MDR master record (943-report extract),reporter_occupation_code,,,,,,,,Babic et al. repository,computed
+MDR master record (943-report extract),health_professional,,,,,,,,Babic et al. repository,computed
+MDR master record (943-report extract),event_location,,,,,,,,Babic et al. repository,computed
+MDR master record (943-report extract),date_manufacturer_received,,,,,,,,Babic et al. repository,computed
+MDR master record (943-report extract),remedial_action,,,,,,,,Babic et al. repository,computed
+MDR master record (943-report extract),event_type,,,,,,,,Babic et al. repository,computed
+MDR master record (943-report extract),type_of_report,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),KNUMBER,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),APPLICANT,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),CONTACT,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),STREET1,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),STREET2,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),CITY,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),STATE,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),COUNTRY_CODE,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),ZIP,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),POSTAL_CODE,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),DATERECEIVED,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),DECISIONDATE,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),DECISION,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),REVIEWADVISECOMM,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),PRODUCTCODE,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),STATEORSUMM,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),CLASSADVISECOMM,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),SSPINDICATOR,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),TYPE,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),THIRDPARTY,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),EXPEDITEDREVIEW,,,,,,,,Babic et al. repository,computed
+510(k) releasable database (pmn96cur),DEVICENAME,,,,,,,,Babic et al. repository,computed
+FDA AI-enabled device list (May 2024 snapshot),Date of Final Decision,,,,,,,,Babic et al. repository,computed
+FDA AI-enabled device list (May 2024 snapshot),Submission Number,,,,,,,,Babic et al. repository,computed
+FDA AI-enabled device list (May 2024 snapshot),Device,,,,,,,,Babic et al. repository,computed
+FDA AI-enabled device list (May 2024 snapshot),Company,,,,,,,,Babic et al. repository,computed
+FDA AI-enabled device list (May 2024 snapshot),Panel (Lead),,,,,,,,Babic et al. repository,computed
+FDA AI-enabled device list (May 2024 snapshot),Primary Product Code,,,,,,,,Babic et al. repository,computed

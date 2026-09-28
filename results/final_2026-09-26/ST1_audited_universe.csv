@@ -1,0 +1,23 @@
+﻿Candidate,Role,Decision,Reason
+MDR master record (MDRFOI),"Capture, index",Core,Holds every device adverse event report
+MDR DEVICE file,Capture,Core,Holds the device identifiers of each report
+MAUDE search interface,Retrieval,Core,Public retrieval of the same records
+openFDA device adverse event interface,Retrieval,Core,"Public programmatic retrieval of the same records, including narrative text"
+Product classification database,Identifier source,Core,Referent of the product code carried by each report
+Releasable 510(k) database,Identifier source,Core,Referent of the premarket submission number carried by each report
+GUDID (AccessGUDID),Identifier source,Core,Referent of the UDI-DI carried by each report
+FDA list of AI-enabled devices,Inventory,Adjacent,Identifies AI-enabled devices but is not linked to event records
+"HTI-1 source attributes, 45 CFR 170.315(b)(11)",Disclosure,Adjacent,Disclosure infrastructure on a principal deployment surface for device software; not an event system
+Sentinel Common Data Model,"Active surveillance (drugs, biologics)",Adjacent,Federal active surveillance; audited for device identifiers
+FDA Adverse Event Monitoring System,Public query tool,Adjacent,Device reports announced but not yet public at the audit date
+Electronic MDR (eMDR) submission schema,Transport,Excluded,Transport format for the records already audited
+MDR problem-code files (device problem; patient problem),Coding,Excluded,Carry the report key and coded problem categories only; no product or component identifier
+"Legacy MDR files (Alternative Summary Reports, 1999–2019; Device Experience Network, 1984–1996)",Historical records,Excluded,Discontinued programs; the audit concerns the current reporting schema
+Medical Product Safety Network (MedSun),Reporting channel,Excluded,Its reports enter the MDR files audited here
+Recall database,Action records,Excluded,"Records regulatory actions, not events"
+Premarket approval and De Novo databases,Decision records,Excluded,"Structurally parallel to the 510(k) database for this purpose; component information, where present, in decision summaries"
+Establishment registration and device listing,Establishment identity,Excluded,"Identifies establishments and listings, not events or components"
+Section 522 postmarket surveillance studies and post-approval studies databases,Study tracking,Excluded,Track mandated studies by product; not event records
+Total product life cycle (TPLC) database,Derived,Excluded,Derived by product code from audited sources
+NEST coordinating centre (NESTcc),Coordination,Excluded,No public data system; documentary audit only (Supplementary Table 2)
+BEST (CBER),Active surveillance (biologics),Excluded as identifier system,"Documentary audit only, as a within-domain contrast (Supplementary Table 2)"

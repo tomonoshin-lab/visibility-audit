@@ -1,0 +1,11 @@
+﻿System,Role,Structured identifiers (referent),C1 grade,C2,C3,Basis
+MDR master record and narrative text[mdr_files],"Capture, index",Report key and number (report); premarket submission number (submission),Mention (narrative text),Absent,Absent,Computed; layout
+MDR DEVICE file[mdr_files],Capture,"Brand, model, catalog, lot and other numbers (article; production unit); UDI-DI (article); UDI string (article; production unit); product code (device type)",None,Absent,Absent,Computed; layout
+MAUDE search interface[maude_search],Retrieval,As the MDR master record and DEVICE file,"Mention (narratives displayed, not searchable)",Absent,Absent,Layout
+openFDA device adverse event interface[openfda],Retrieval,"As the MDR files, including a report-level submission number; no version key",Mention (narratives searchable),Not documented,Not documented,Layout
+Product classification database[prodclass],Identifier source,Product code (device type); regulation number (device type),None,—,—,Layout
+Releasable 510(k) database[k510_layout],Identifier source,510(k) number (submission); product code (device type),Mention (linked summary documents),—,—,Computed; layout
+GUDID[cfr_udi; gudid_guid],Identifier source used in postmarket identification,Device identifier; version or model (article); premarket submission number (submission); GMDN term (device type); production-identifier flags,Mention (device description text),Not documented,Not documented,Layout; computed
+Comparators,,,,,,
+Vaccine Safety Datalink rapid cycle analysis[cvx; vsd_protocol; klein2021],Active surveillance,CVX (vaccine product); dependency recorded as a prespecified list of product codes,Cross-product retrieval (C1 met),Present,Present (weekly),Documentary
+Section 524B software bill of materials[sec524b; cyber_guid],Premarket submission,Software component (upstream component),Structured capture at premarket; cannot be joined from event records,Absent (vulnerability signals only; none for adverse events),Absent (vulnerability coordination only),Documentary

@@ -1,0 +1,7 @@
+﻿File,Fields,Field names,Component identifiers
+MDR master-record extract (943 reports),15,"idnumber (source study's submission number), mdr_report_key, report_source_code, date_received, adverse_event_flag, product_problem_flag, date_report, date_of_event, reporter_occupation_code, health_professional, event_location, date_manufacturer_received, remedial_action, event_type, type_of_report",0
+Releasable 510(k) file (pmn96cur),22,"KNUMBER, APPLICANT, CONTACT, STREET1, STREET2, CITY, STATE, COUNTRY_CODE, ZIP, POSTAL_CODE, DATERECEIVED, DECISIONDATE, DECISION, REVIEWADVISECOMM, PRODUCTCODE, STATEORSUMM, CLASSADVISECOMM, SSPINDICATOR, TYPE, THIRDPARTY, EXPEDITEDREVIEW, DEVICENAME",0
+FDA list of AI-enabled devices (May 2024 snapshot; current file has the same six columns),6,"Date of Final Decision, Submission Number, Device, Company, Panel (Lead), Primary Product Code",0
+Total,43,,0
+Source study's software flag file (raw/software_readables.xlsx; 824 rows),3,"idnumber, soft_dum_key, machineread_dum",0 (derived file; not counted in the total)
+Source study's device file (823 devices; derived from the 510(k) file and study flags),30,"applicant and address fields, classadvisecomm, decisioncode, devicename, dtdec, dtrec, fda_ai, idnumber, productcode, soft_dum_key, stateorsumm, type, yrdec, yrrec and adverse-event counts",0 (derived file; not counted in the total)

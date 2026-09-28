@@ -1,0 +1,23 @@
+﻿Measure,Numerator,Denominator,%,Basis
+Submission number populated in master record (sample),943,943,100.0,"Master-file scan, 2 Sep 2026; consistent with a sample assembled through premarket linkage"
+Agrees with source-study attribution,913,943,96.8,"30 disagreements, all 510(k) vs 510(k) of the same manufacturer (25 and 5 reports); all 943 master records carry change dates between July 2025 and January 2026, so the disagreements may reflect revisions after the source study's extraction"
+EXEMPTION_NUMBER populated; SUMMARY_REPORT = Y,0; 1,943,0.0; 0.1,Master-file scan
+"Population reach of a valid-format submission number, receipt years 2013–2023",≈11.6 million,"15,463,770",75.05,Any entry: 79.46%. Rates were recorded to four decimals; exact counts are in the repository output. The denominator includes reports on devices exempt from premarket submission
+"Population reach, all receipt years",≈17.2 million,"23,636,517",72.69,Any entry: 77.18%. The field is effectively unpopulated before 2006
+DEVICE rows matched to the 943 reports,969 rows,943 reports,—,"First device row per report retained; at most 26 reports have more than one row, so an identifier carried only on a later row is not counted"
+UDI-DI recorded,446,943,47.3,39 distinct identifiers
+UDI-DI resolves in GUDID,445,943,47.2,38 of 39 identifiers; 1 identifier (1 report) returned HTTP 404 and is counted in the I2 upper-bound row
+GUDID record names a premarket submission,382,943,40.5,21 of 38 resolved identifiers; 85.7% of reports with an identifier
+GUDID submission agrees with master record,366,943,38.8,"11 identifiers agree; 10 identifiers (16 reports) name a different, mostly earlier, clearance; 17 identifiers (63 reports) name none"
+Upstream component identified,0,943,0.0,No structured field in any core system
+Designated software-version field (I3),—,—,—,No field in the master or DEVICE layout
+No UDI-DI recorded,497,943,52.7,Version not reachable through a device identifier
+Dominant UDI-DI names a hardware model; no segment designated for version,250,943,26.5,"One identifier (mass-spectrometry identification system); version or model ""410895""; lot/batch flag false"
+"Other UDI-DIs could designate a version (I2, upper bound)",196,943,20.8,"Remaining identifiers on first device rows: 131 reports whose GUDID record flags a lot or batch element (the route FDA guidance allows for a software version), 64 whose record flags none (version only if the identifier is issued per version) and 1 unresolved; at most 222 (23.5%) if later device rows are counted"
+"Version-like token in model, catalog, lot, other-ID or UDI fields (heuristic)",137,943,14.5,"212 report–field units flagged, deposited unclassified"
+Production-identifier flags across 38 resolved identifiers,lot/batch 19 (131 reports); serial 23 (419); manufacturing date 18 (149); expiration 8 (41),38 identifiers,—,"AccessGUDID, 2 Sep 2026"
+Preflight: event location missing,"943 (369 blank, 574 coded ""No Information"")",943,100.0,Reproduces source study
+Preflight: health-professional status missing,"690 (509 blank, 181 coded ""No Information"")",943,73.2,"Source study reports 73%; its stated subcount of 101 ""No Information"" entries differs from the 181 in the extract"
+Preflight: event date missing,298,943,31.6,Reproduces source study (32%)
+Preflight: reporter occupation missing,283,943,30.0,Reproduces source study
+Preflight: event type,"857 malfunction, 84 injury, 2 death",943,—,Reproduces source study

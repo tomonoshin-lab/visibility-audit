@@ -1,0 +1,37 @@
+{
+  "field_counts": {
+    "MDR master record (943-report extract)": 15,
+    "510(k) releasable database (pmn96cur)": 22,
+    "FDA AI-enabled device list (May 2024 snapshot)": 6,
+    "total_fields": 43,
+    "structured_upstream_component_identifiers": 0,
+    "candidate_fields_matching_component_terms": []
+  },
+  "missingness_replication": {
+    "n_reports": 943,
+    "event_location_missing_blank_or_I": 943,
+    "health_professional_missing_blank_or_I": 690,
+    "date_of_event_missing": 298,
+    "reporter_occupation_missing": 283,
+    "event_type_counts": {
+      "M": 857,
+      "IN": 84,
+      "D": 2
+    },
+    "date_received_years": {
+      "2013": 2,
+      "2014": 62,
+      "2015": 16,
+      "2016": 1,
+      "2017": 70,
+      "2018": 100,
+      "2019": 224,
+      "2020": 139,
+      "2021": 47,
+      "2022": 57,
+      "2023": 225
+    },
+    "unique_devices_idnumber": 51,
+    "mdr_report_key_unique": 943
+  }
+}

@@ -1,0 +1,10 @@
+﻿Mechanism,Source,C1 grade reached and reason,C2,C3,Layer
+Foundation Model Master File,[fda_dp; maf_page],"Structured capture: an FDA-assigned reference number identifies a file describing a foundation model, but serves premarket reference only; not joinable from event records; no converse query",Not met,Not met,Categorical
+Predetermined Change Control Plan,[pccp; fda_dp],Mention: the model is described within one sponsor's plan,Not met,Not met,Categorical
+Periodic device benchmarking,[fda_dp],"None: sponsor-run and product-scoped, although repeated after changes to the underlying model",Not met,Not met,Categorical
+Periodic sample-based clinician review,[fda_dp],None: independent clinician adjudicators review one product's inputs and outputs,Not met,Not met,Categorical
+Performance degradation monitoring,[fda_dp],"None: sponsor-run and product-scoped, although it covers changes in underlying model components",Not met,Not met,Categorical
+Foundation-model tag in the list of AI-enabled devices,[ai_list],"None: as described, the tag marks whether a device incorporates a foundation model, not which one; no maintained model-level mapping",Not met,Not met,Categorical
+Quarterly deployment-condition updates and training-data flags,[babic2025],"Mention: report content, indexed by product",Not met,Not met,Categorical
+Nutrition-label model cards,[gerke2023],Mention: label text; no key,Not met,Not met,Categorical
+System view (continuous multi-party reporting),[gerke2020],Mention: reporting regime; no key,Not met,Not met,Categorical

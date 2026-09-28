@@ -1,0 +1,8 @@
+{
+  "n_943": 943,
+  "master_rows_found": 943,
+  "submission_field": "PMA_PMN_NUM",
+  "populated_within_943": 943,
+  "equals_source_study_idnumber": 913,
+  "note": "fill within the 943 is subject to selection on the key; use population_fill_by_year.csv for the representative rate"
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite them as below."
+title: "visibility-audit: codebook, audit logs and code for an audit of identifier schemas and record linkage in US device surveillance"
+type: dataset
+authors:
+  - family-names: Aoki
+    given-names: Tomonoshin
+    orcid: "https://orcid.org/0009-0008-4943-6557"
+    affiliation: "Innovation Management and Policy Program, Graduate School of Business Administration, Hitotsubashi University"
+version: v1.0
+license: CC-BY-4.0
+keywords:
+  - postmarketing surveillance
+  - medical devices
+  - artificial intelligence
+  - foundation models
+  - record linkage
+  - unique device identifier
