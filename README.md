@@ -21,4 +21,4 @@ See `scripts/README.md`. The source study's replication files are at https://git
 
 ## Licence and citation
 
-Documentation and data: CC BY 4.0. Code: MIT. See `LICENSE.md`. Cite as in `CITATION.cff`; the Zenodo DOI is added after the first release.
+Documentation and data: CC BY 4.0. Code: MIT. See `LICENSE.md`. Cite as in `CITATION.cff`. Release v1.0 is archived on Zenodo: https://doi.org/10.5281/zenodo.23016647 (all versions: https://doi.org/10.5281/zenodo.23016646).

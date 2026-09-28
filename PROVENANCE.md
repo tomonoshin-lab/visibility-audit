@@ -23,3 +23,12 @@ so that the record shown to editors can be checked against this deposit.
 - `out/r1c/master_extract_943.csv` is a column subset of the 943 master records written by the master-file scan: report key, report number, dates received and changed, event type, submission number, exemption number and summary-report flag. The omitted columns include the names, addresses and telephone numbers of manufacturer contacts, which the analysis does not use; the full rows are reproduced by running `scripts/r1c_master_submission_field.py` on the FDA file.
 - In the two run logs (`out/r1c/r1c_run_author_2026-09-02.log`, `out/gudid/gudid_run_author_2026-09-02.log`) the local directory path of the author's computer is replaced by `<author-dir>`; nothing else is changed.
 - Outputs of the withdrawn second-coder procedure and figures of an earlier draft are not included.
+
+## Changes after release v1.0 (29 September 2026)
+
+Release v1.0 (Zenodo, https://doi.org/10.5281/zenodo.23016647) is unchanged. The following edits were made afterwards; no codebook file, recorded judgment or computed value changed.
+
+- `README.md` and `CITATION.cff`: the Zenodo DOI is added.
+- `LICENSE.md`: the source of the selection of the 943 reports is stated.
+- `data/MANIFEST.md`: a placeholder section unrelated to the manuscript and a reference to a `.gitignore` file that is not part of this deposit are removed.
+- `out/r1c/RESULTS_reported_by_author_2026-09-02.md`: a closing working note listing files to be copied into the working record is removed.

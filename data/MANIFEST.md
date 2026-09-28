@@ -1,6 +1,6 @@
 # Data manifest
 
-Large FDA downloads used by the audit scripts. The files themselves are not committed (`.gitignore`: `data/*.zip`); they are listed here with size, SHA-256, download timestamp (file modification time on the author's machine, JST), and source URL so that any run can be reproduced against the same release.
+Large FDA downloads used by the audit scripts. The files themselves are not included in this repository; they are listed here with size, SHA-256, download timestamp (file modification time on the author's machine, JST), and source URL so that any run can be reproduced against the same release.
 
 ## MAUDE DEVICE files (used by r1b)
 
@@ -40,7 +40,3 @@ Both master files have 86 pipe-delimited fields (`out/r1c/layouts.txt`); `PMA_PM
 ## AccessGUDID (used by gudid_lookup.py)
 
 API v3 lookups, https://accessgudid.nlm.nih.gov/api/v3/devices/lookup.json?di=<DI>, executed 2026-09-02 (JST 22:21–22:22) for the 39 distinct UDI-DIs; per-record `lookup_date` and `public_version_number`/`public_version_date` are in `out/gudid/gudid_lookup_results.csv`.
-
-## Docket submission record
-
-(to be filled after submission to FDA-2026-N-7874: date, Receipt/Tracking Number, Comment ID)
