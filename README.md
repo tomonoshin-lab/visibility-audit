@@ -6,6 +6,7 @@ Materials that support the manuscript "US medical device surveillance cannot ret
 |---|---|---|
 | `codebook/codebook_v1.md`, `codebook/document_register.md`, `codebook/templates_v1.0/` | Codebook, document register and blank judgment templates, fixed on 2 September 2026 before any confirmatory judgment | Methods (Study design) |
 | `codebook/codebook_v1.1_…`, `codebook/codebook_v1.2_…`, `codebook/codebook_v1.3_…`, `codebook/templates_v1.3/` | Three addenda fixed on 3 September 2026 (Japan Standard Time); v1.3 replaced the second-coder design of v1.0 with single-author verification, withdrew the adjudication of version-like tokens specified in v1.1 and fixed the outcome hierarchy, while all judgment templates were blank | Supplementary Methods |
+| `codebook/codebook_v1.4_addendum_classification_by_rule.md` | Addendum of 29 September 2026, written after the classifications were recorded: replaces the single-judge statement of v1.3 with classification by rule (the author fixes the rules; codes are assigned by applying them to the recorded evidence) and states rules B1–B8 for boundary cases; applying them reproduces every recorded code | Supplementary Methods (deviations) |
 | `results/final_2026-09-26/` | Recorded judgments and tabulations, with a file-by-file map to the manuscript's tables and the correspondence between the manuscript's grades and the codebook | Tables 1–2; Supplementary Tables 1–6 |
 | `CHANGELOG_2026-09-26.md` | Judgments changed after they were recorded | Supplementary Methods (deviations) |
 | `out/` | Computed outputs: field inventories (`r1a`), DEVICE-file join and version-like token search (`r1b`), MDR master-file scan (`r1c`), AccessGUDID resolution (`gudid`) | Results; Supplementary Table 3 |
@@ -21,4 +22,4 @@ See `scripts/README.md`. The source study's replication files are at https://git
 
 ## Licence and citation
 
-Documentation and data: CC BY 4.0. Code: MIT. See `LICENSE.md`. Cite as in `CITATION.cff`. Release v1.0 is archived on Zenodo: https://doi.org/10.5281/zenodo.23016647 (all versions: https://doi.org/10.5281/zenodo.23016646).
+Documentation and data: CC BY 4.0. Code: MIT. See `LICENSE.md`. Cite as in `CITATION.cff`. Release v1.0 is archived on Zenodo: https://doi.org/10.5281/zenodo.23016647; release v1.1 adds addendum v1.4. All versions: https://doi.org/10.5281/zenodo.23016646.

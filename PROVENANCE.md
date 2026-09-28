@@ -28,6 +28,7 @@ so that the record shown to editors can be checked against this deposit.
 
 Release v1.0 (Zenodo, https://doi.org/10.5281/zenodo.23016647) is unchanged. The following edits were made afterwards; no codebook file, recorded judgment or computed value changed.
 
+- `codebook/codebook_v1.4_addendum_classification_by_rule.md`: a new addendum, dated 29 September 2026 and written after the classifications were recorded (release v1.1). The earlier codebook files are unchanged.
 - `README.md` and `CITATION.cff`: the Zenodo DOI is added.
 - `LICENSE.md`: the source of the selection of the 943 reports is stated.
 - `data/MANIFEST.md`: a placeholder section unrelated to the manuscript and a reference to a `.gitignore` file that is not part of this deposit are removed.
