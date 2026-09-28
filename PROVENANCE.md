@@ -32,3 +32,5 @@ Release v1.0 (Zenodo, https://doi.org/10.5281/zenodo.23016647) is unchanged. The
 - `LICENSE.md`: the source of the selection of the 943 reports is stated.
 - `data/MANIFEST.md`: a placeholder section unrelated to the manuscript and a reference to a `.gitignore` file that is not part of this deposit are removed.
 - `out/r1c/RESULTS_reported_by_author_2026-09-02.md`: a closing working note listing files to be copied into the working record is removed.
+
+Zenodo archived release v1.0 from commit `fe8fd536382b32d6be705b2ec2b9b1a9d65c4745`, and the folder inside the Zenodo archive is named after it. On 29 September 2026 that commit was re-created as commit `38cdd64aa7ba7d95367b34a4109f7ad81d50bfbb`, which differs only in its commit message, and tag `v1.0` was moved to it. Both commits have the same file tree (Git tree `c1b841069e3bb22f0634efe5a2dfbfdef3155459`), so the files of tag `v1.0` are identical to those archived on Zenodo.
